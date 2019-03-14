@@ -1,0 +1,40 @@
+{
+	"show": {
+		"schedul": {
+			"today": {
+				"intent": "showTimeline",
+				"data_1": "today",
+				"data_2": ""
+			},
+			"tomorrow": {
+				"intent": "showTimeline",
+				"data_1": "tommorow",
+				"time": ""
+			},
+			"now": {
+				"intent": "showTimeline",
+				"data_1": "now",
+				"data_2": ""
+			}
+		}
+	},
+	
+	"add": {
+		"intent": "addEvent",
+		"data_1": "now",
+		"data_2": "0"
+	},
+	
+	"news": {
+		"intent": "getNews",
+		"data_1": "",
+		"data_2": ""
+	},
+	
+	"error": {
+		"intent": "foundError",
+		"data_1": "There has been an error processsing this query.",
+		"data_2": "0"
+		
+	}
+}
